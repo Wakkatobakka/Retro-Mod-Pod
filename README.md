@@ -1,4 +1,6 @@
-# Retro Mod Pod
+![Retro Mod Pod — Game in. Mod in. KABOOMY out.](Retro_Mod_Pod_Banner.png)
+ 
+ # Retro Mod Pod
 
 **Feed it a game. Feed it a mod. Press the irresponsible button.**
 
