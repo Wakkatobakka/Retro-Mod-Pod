@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 236" width="900" height="236" role="img" aria-label="Press the irresponsible button.">
+<title>Press the irresponsible button.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.ep{animation:ep 6s linear infinite}@keyframes ep{0%,93%,100%{opacity:1}94%{opacity:.3}95%{opacity:1}97%{opacity:.5}98%{opacity:1}}
+</style>
+<defs>
+<filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="sc" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="234" rx="16" fill="#0c1219" stroke="#223140" stroke-width="2"/>
+<circle cx="450" cy="84" r="38" fill="none" stroke="#ff5468" stroke-width="2" opacity=".8"><animate attributeName="r" values="38;100" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="450" cy="84" r="38" fill="none" stroke="#ff5468" stroke-width="2" opacity=".8"><animate attributeName="r" values="38;100" dur="2.4s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+<circle cx="450" cy="84" r="40" fill="none" stroke="#223140" stroke-width="3"/>
+<circle cx="450" cy="84" r="33" fill="#ff5468" filter="url(#gl)"/><ellipse cx="440" cy="72" rx="14" ry="8" fill="#fff" opacity=".25"/>
+<text x="450" y="89" font-size="12" font-weight="700" text-anchor="middle" fill="#e6eef6">KABOOMY</text>
+<text class="ep" x="450" y="176" font-size="28" font-weight="700" text-anchor="middle" fill="#ffa23d" filter="url(#gl)">Press the irresponsible button.</text>
+<text x="450" y="206" font-size="11" text-anchor="middle" fill="#7f93a8">Originals stay untouched. Nothing is uploaded. It refuses to guess.</text>
+</svg>

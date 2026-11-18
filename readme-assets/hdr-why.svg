@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 104" width="900" height="104" role="img" aria-label="Why this exists: I didn&#x27;t know how ROM patching worked, so I made it the tool&#x27;s problem.">
+<title>Why this exists: I didn&#x27;t know how ROM patching worked, so I made it the tool&#x27;s problem.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.cur{animation:cur 1s steps(1) infinite}
+@keyframes cur{50%{opacity:0}}
+.blink{animation:cur 1.4s steps(1) infinite}
+.g1{animation:g1 4s steps(1) infinite}.g2{animation:g2 4s steps(1) infinite}
+@keyframes g1{0%,88%,100%{transform:translate(0,0)}90%{transform:translate(-4px,1px)}93%{transform:translate(3px,-1px)}96%{transform:translate(-2px,0)}}
+@keyframes g2{0%,88%,100%{transform:translate(0,0)}90%{transform:translate(4px,-1px)}93%{transform:translate(-3px,1px)}96%{transform:translate(2px,0)}}
+</style>
+<defs>
+<filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="sc" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="102" rx="12" fill="#0c1219" stroke="#223140" stroke-width="2"/>
+<rect x="1" y="1" width="6" height="102" rx="3" fill="#ffa23d"/>
+<rect x="1" y="1" width="898" height="102" rx="12" fill="url(#sc)"/>
+<circle cx="50" cy="52" r="20" fill="none" stroke="#ffa23d" stroke-opacity=".25" stroke-width="2"/>
+<circle class="pulse" cx="50" cy="52" r="8" fill="#ffa23d" filter="url(#gl)"/>
+<text x="92" y="30" font-size="12" fill="#7f93a8">origin</text>
+<text x="92" y="60" font-size="28" font-weight="700" fill="#e6eef6">Why this exists</text>
+<clipPath id="tc"><rect x="92" y="72" width="602" height="24"><animate attributeName="width" values="0;602;602" keyTimes="0;.22;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+<text x="92" y="88" font-size="14" fill="#e6eef6" clip-path="url(#tc)">I didn&#x27;t know how ROM patching worked, so I made it the tool&#x27;s problem.</text>
+<rect x="694" y="75" width="8" height="15" fill="#ffa23d" class="cur"><animate attributeName="x" values="92;694;694" keyTimes="0;.22;1" dur="10s" repeatCount="indefinite"/></rect>
+<g class=""><rect x="757" y="16" width="119" height="26" rx="13" fill="#ffa23d" fill-opacity=".14" stroke="#ffa23d" stroke-opacity=".6"/>
+<text x="816.5" y="33" font-size="12" text-anchor="middle" fill="#ffa23d">origin story</text></g>
+</svg>

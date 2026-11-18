@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 336" width="900" height="336" role="img" aria-label="A thermal-paper receipt listing what every successful output records: version, input names, patched payload, target selection, patch format, source and patched checksums, and that the original was not modified">
+<title>A thermal-paper receipt listing what every successful output records: version, input names, patched payload, target selection, patch format, source and patched checksums, and that the original was not modified</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+</style>
+<defs>
+<filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="sc" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="334" rx="16" fill="#0c1219" stroke="#223140" stroke-width="2"/>
+<rect x="230" y="8" width="440" height="14" rx="7" fill="#101a24" stroke="#223140" stroke-width="2"/>
+<clipPath id="pr"><rect x="256" y="22" width="388" height="300"><animate attributeName="height" values="0;300;300" keyTimes="0;.35;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#pr)"><path d="M260,20 H640 V306 L630,316 L620,306L610,316 L600,306L590,316 L580,306L570,316 L560,306L550,316 L540,306L530,316 L520,306L510,316 L500,306L490,316 L480,306L470,316 L460,306L450,316 L440,306L430,316 L420,306L410,316 L400,306L390,316 L380,306L370,316 L360,306L350,316 L340,306L330,316 L320,306L310,316 L300,306L290,316 L280,306L270,316 L260,306 Z" fill="#e9eff5"/>
+<text x="450.0" y="52" font-size="13" font-weight="700" text-anchor="middle" fill="#0c1219">RETRO_MOD_POD_RECEIPT.txt</text>
+<line x1="280" y1="64" x2="620" y2="64" stroke="#0c1219" stroke-opacity=".5" stroke-dasharray="4 4"/>
+<rect x="286" y="81" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="90" font-size="13" fill="#0c1219">Retro Mod Pod version</text>
+<rect x="286" y="105" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="114" font-size="13" fill="#0c1219">original game input name</text>
+<rect x="286" y="129" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="138" font-size="13" fill="#0c1219">patched payload</text>
+<rect x="286" y="153" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="162" font-size="13" fill="#0c1219">how the target was selected</text>
+<rect x="286" y="177" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="186" font-size="13" fill="#0c1219">mod input and patch file</text>
+<rect x="286" y="201" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="210" font-size="13" fill="#0c1219">patch format</text>
+<rect x="286" y="225" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="234" font-size="13" fill="#0c1219">source CRC32 + SHA-256</text>
+<rect x="286" y="249" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="258" font-size="13" fill="#0c1219">patched CRC32 + SHA-256</text>
+<rect x="286" y="273" width="9" height="9" rx="2" fill="#1f9d55"/><text x="306" y="282" font-size="13" fill="#0c1219" font-weight="700">original input modified: no</text>
+</g>
+</svg>

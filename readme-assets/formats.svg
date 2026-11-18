@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="900" height="210" role="img" aria-label="Patch formats: IPS, BPS, UPS and PPF1/2/3 are applied; xdelta/VCDIFF is detected but not applied; APS, RUP, MOD, BDF and BSPATCH are recognized only">
+<title>Patch formats: IPS, BPS, UPS and PPF1/2/3 are applied; xdelta/VCDIFF is detected but not applied; APS, RUP, MOD, BDF and BSPATCH are recognized only</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.pulse{animation:pulse 2.2s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+</style>
+<defs>
+<filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="sc" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="208" rx="16" fill="#0c1219" stroke="#223140" stroke-width="2"/>
+<circle cx="46" cy="50" r="6" fill="#43e68a" class="pulse"/><text x="62" y="55" font-size="13" fill="#e6eef6">applied</text>
+<rect x="290" y="34" width="58" height="32" rx="16" fill="#43e68a" fill-opacity="0.14" stroke="#43e68a" stroke-opacity=".7" stroke-width="2"/><text x="319.0" y="55" font-size="13" font-weight="700" text-anchor="middle" fill="#43e68a">IPS</text>
+<rect x="360" y="34" width="58" height="32" rx="16" fill="#43e68a" fill-opacity="0.14" stroke="#43e68a" stroke-opacity=".7" stroke-width="2"/><text x="389.0" y="55" font-size="13" font-weight="700" text-anchor="middle" fill="#43e68a">BPS</text>
+<rect x="430" y="34" width="58" height="32" rx="16" fill="#43e68a" fill-opacity="0.14" stroke="#43e68a" stroke-opacity=".7" stroke-width="2"/><text x="459.0" y="55" font-size="13" font-weight="700" text-anchor="middle" fill="#43e68a">UPS</text>
+<rect x="500" y="34" width="196" height="32" rx="16" fill="#43e68a" fill-opacity="0.14" stroke="#43e68a" stroke-opacity=".7" stroke-width="2"/><text x="598.0" y="55" font-size="13" font-weight="700" text-anchor="middle" fill="#43e68a">PPF1 / PPF2 / PPF3</text>
+<circle cx="46" cy="110" r="6" fill="#ffa23d"/><text x="62" y="115" font-size="13" fill="#e6eef6">detected, not applied</text>
+<rect x="290" y="94" width="168" height="32" rx="16" fill="#ffa23d" fill-opacity="0.14" stroke="#ffa23d" stroke-opacity=".7" stroke-width="2"/><text x="374.0" y="115" font-size="13" font-weight="700" text-anchor="middle" fill="#ffa23d">xdelta / VCDIFF</text>
+<circle cx="46" cy="170" r="6" fill="#7f93a8"/><text x="62" y="175" font-size="13" fill="#e6eef6">recognized, not applied</text>
+<rect x="290" y="154" width="58" height="32" rx="16" fill="#7f93a8" fill-opacity="0.1" stroke="#7f93a8" stroke-opacity=".7" stroke-width="2"/><text x="319.0" y="175" font-size="13" font-weight="700" text-anchor="middle" fill="#e6eef6">APS</text>
+<rect x="360" y="154" width="58" height="32" rx="16" fill="#7f93a8" fill-opacity="0.1" stroke="#7f93a8" stroke-opacity=".7" stroke-width="2"/><text x="389.0" y="175" font-size="13" font-weight="700" text-anchor="middle" fill="#e6eef6">RUP</text>
+<rect x="430" y="154" width="58" height="32" rx="16" fill="#7f93a8" fill-opacity="0.1" stroke="#7f93a8" stroke-opacity=".7" stroke-width="2"/><text x="459.0" y="175" font-size="13" font-weight="700" text-anchor="middle" fill="#e6eef6">MOD</text>
+<rect x="500" y="154" width="58" height="32" rx="16" fill="#7f93a8" fill-opacity="0.1" stroke="#7f93a8" stroke-opacity=".7" stroke-width="2"/><text x="529.0" y="175" font-size="13" font-weight="700" text-anchor="middle" fill="#e6eef6">BDF</text>
+<rect x="570" y="154" width="94" height="32" rx="16" fill="#7f93a8" fill-opacity="0.1" stroke="#7f93a8" stroke-opacity=".7" stroke-width="2"/><text x="617.0" y="175" font-size="13" font-weight="700" text-anchor="middle" fill="#e6eef6">BSPATCH</text>
+
+</svg>

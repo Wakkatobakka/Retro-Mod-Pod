@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 196" width="900" height="196" role="img" aria-label="Game pod and mod pod feed the KABOOMY button, which outputs a patched ZIP with a receipt">
+<title>Game pod and mod pod feed the KABOOMY button, which outputs a patched ZIP with a receipt</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.flow{animation:flow 1s linear infinite}@keyframes flow{to{stroke-dashoffset:-14}}
+</style>
+<defs>
+<filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="sc" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="194" rx="16" fill="#0c1219" stroke="#223140" stroke-width="2"/>
+<line x1="130" y1="72" x2="670" y2="72" stroke="#223140" stroke-width="8" stroke-linecap="round"/>
+<line class="flow" x1="130" y1="72" x2="670" y2="72" stroke="#ffa23d" stroke-width="3" stroke-dasharray="6 8"/>
+<circle r="6" fill="#ffa23d" filter="url(#gl)" cx="130" cy="72"><animate attributeName="cx" values="130;670;670" keyTimes="0;.85;1" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="130" cy="72" r="38" fill="#101a24" stroke="#223140" stroke-width="2"/>
+<path d="M-14,-16 H10 L16,-10 V16 H-14 Z M-8,-6 H8 M-8,2 H8" transform="translate(130,72)" fill="none" stroke="#4fd8f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="130" y="136" font-size="15" font-weight="700" text-anchor="middle" fill="#e6eef6">GAME POD</text><text x="130" y="154" font-size="11" text-anchor="middle" fill="#7f93a8">your game or game ZIP</text>
+<circle cx="310" cy="72" r="38" fill="#101a24" stroke="#223140" stroke-width="2"/>
+<path d="M-15,-15 H15 V15 H-15 Z M-8,-2 H8 M0,-10 V6" transform="translate(310,72)" fill="none" stroke="#ffa23d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="310" y="136" font-size="15" font-weight="700" text-anchor="middle" fill="#e6eef6">MOD POD</text><text x="310" y="154" font-size="11" text-anchor="middle" fill="#7f93a8">patch file or mod ZIP</text>
+<circle cx="490" cy="72" r="38" fill="#101a24" stroke="#ff5468" stroke-width="2"/>
+<circle cx="490" cy="72" r="22" fill="#ff5468" filter="url(#gl)"/><ellipse cx="484" cy="64" rx="9" ry="5" fill="#fff" opacity=".25"/>
+<text x="490" y="136" font-size="15" font-weight="700" text-anchor="middle" fill="#e6eef6">KABOOMY</text><text x="490" y="154" font-size="11" text-anchor="middle" fill="#7f93a8">verify, patch, package</text>
+<circle cx="670" cy="72" r="38" fill="#101a24" stroke="#223140" stroke-width="2"/>
+<path d="M-12,-16 H6 L14,-8 V16 H-12 Z M-4,-4 H4 M-4,4 H4" transform="translate(670,72)" fill="none" stroke="#43e68a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="670" y="136" font-size="15" font-weight="700" text-anchor="middle" fill="#e6eef6">__MODDED.zip</text><text x="670" y="154" font-size="11" text-anchor="middle" fill="#7f93a8">plus a receipt</text>
+<text x="780" y="76" font-size="11" fill="#7f93a8">nothing installed,</text><text x="780" y="92" font-size="11" fill="#7f93a8">nothing uploaded</text><text x="450" y="184" font-size="12" text-anchor="middle" fill="#7f93a8">Open Retro-Mod-Pod-v0.1.0.html in a modern browser. That is the whole install.</text>
+</svg>
